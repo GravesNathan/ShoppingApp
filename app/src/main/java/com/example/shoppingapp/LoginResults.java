@@ -24,7 +24,7 @@ public class LoginResults extends AppCompatActivity {
             resultTextView.setText(result);
         }
         //Return button setup
-        Button returnBtn = (Button) findViewById(R.id.returnBtn);
+        Button returnBtn = (Button) findViewById(R.id.loginBtn);
         returnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
